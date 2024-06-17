@@ -42,7 +42,7 @@ class _loginScreenState extends State<loginScreen> {
               child: AnimatedScale(
                 scale: _isAnimate ? 1.0 : 0.5,
                 duration: const Duration(milliseconds: 1000),
-                child: Image.asset('images/icon.png'),
+                child: Image.asset('images/jar.png'),
 			          ),
              ),
             ),
