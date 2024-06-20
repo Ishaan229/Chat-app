@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:swipe/screens/auth/login_screen.dart';
+// import 'package:swipe/screens/auth/login_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:swipe/screens/splash_screen.dart';
+import 'firebase_options.dart';
 
 
 // global object for accessing device size
@@ -7,6 +10,8 @@ late Size mq;
 
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  _initializeFirebase();
   runApp(const MyApp());
 }
 
@@ -32,7 +37,13 @@ class MyApp extends StatelessWidget {
         
 					),backgroundColor: Color.fromARGB(255, 5, 0, 157),),
       ),
-      home:loginScreen(),
+      home:splashScreen(),
     );
   }
+}
+
+_initializeFirebase() async {
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+);
 }

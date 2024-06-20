@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "211771392402",
+    "project_id": "swipe-chat-app",
+    "storage_bucket": "swipe-chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211771392402:android:9f82b8b68987a003b6c14b",
+        "android_client_info": {
+          "package_name": "com.example.swipe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNw9QBSNqqRZs0SJrJkpCtW-p3O1iq7NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"swipe-chat-app","appId":"1:211771392402:android:9f82b8b68987a003b6c14b","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"swipe-chat-app","configurations":{"android":"1:211771392402:android:9f82b8b68987a003b6c14b","ios":"1:211771392402:ios:c63452deebd0df12b6c14b"}}}}}}
