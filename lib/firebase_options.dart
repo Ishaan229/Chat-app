@@ -63,6 +63,9 @@ class DefaultFirebaseOptions {
     messagingSenderId: '211771392402',
     projectId: 'swipe-chat-app',
     storageBucket: 'swipe-chat-app.appspot.com',
+    androidClientId: '211771392402-7lffbp9f6t1m23beoibr567u5s4cm7fm.apps.googleusercontent.com',
+    iosClientId: '211771392402-ocb17p60jlf7oah5g0ml62lc8480s3t9.apps.googleusercontent.com',
     iosBundleId: 'com.example.swipe',
   );
+
 }

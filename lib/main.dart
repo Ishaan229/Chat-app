@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 // import 'package:swipe/screens/auth/login_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:swipe/screens/splash_screen.dart';
@@ -11,8 +12,13 @@ late Size mq;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp,DeviceOrientation.portraitDown]).then((value) {
   _initializeFirebase();
   runApp(const MyApp());
+  }
+  );
 }
 
 class MyApp extends StatelessWidget {
